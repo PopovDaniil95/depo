@@ -1,19 +1,10 @@
-@font-face {
-  font-family: "tt_firs_neue";
-  src: url("../fonts/tt_firs_neue_trial_medium-webfont.woff2") format("woff2"),
-    url("../fonts/tt_firs_neue_trial_medium-webfont.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
+$grey-color: color(#6f767e);
 
 * {
   padding: 0;
   margin: 0;
   border: 0;
   box-sizing: border-box;
-}
-
-body {
   font-family: "tt_firs_neue";
 }
 
@@ -27,46 +18,15 @@ a {
   flex-direction: row;
 }
 
-.font-tini {
-  font-size: 12px;
-  line-height: 16px;
-}
-
-.font-small {
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.font-medium {
-  font-size: 18px;
-  line-height: 32px;
-}
-
-.font-large {
-  font-size: 20px;
-  line-height: 32px;
-}
-
-.font-huge {
-  font-size: 24px;
-  line-height: 32px;
-}
-
-.font-enormous {
-  font-size: 48px;
-  line-height: 56px;
-}
-
-.font-gigantic {
-  font-size: 64px;
-  line-height: 72px;
-}
-
 .header__wrapper {
   align-items: center;
   width: 100%;
   justify-content: space-between;
   padding: 20px 24px;
+}
+
+.header__left {
+  align-items: center;
 }
 
 .header__divider {
@@ -77,7 +37,6 @@ a {
 }
 
 .menu {
-  margin-right: 480px;
   ul {
     width: 100%;
     display: flex;
@@ -101,7 +60,7 @@ a {
 
 .container {
   margin: 0 auto;
-  min-width: 1224px;
+  max-width: 1224px;
 }
 
 .btn {
