@@ -1,19 +1,26 @@
-@font-face {
-  font-family: "tt_firs_neue";
-  src: url("../fonts/tt_firs_neue_trial_medium-webfont.woff2") format("woff2"),
-    url("../fonts/tt_firs_neue_trial_medium-webfont.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
+@import url(../fonts/TTFirsNeue-Medium/style.css);
+
+h1,
+.h1 {
+  font-size: 64px;
+  line-height: 72px;
 }
 
-.font-tini {
-  font-size: 12px;
-  line-height: 16px;
+h2,
+.h2 {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .font-small {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .font-medium {
@@ -21,22 +28,7 @@
   line-height: 32px;
 }
 
-.font-large {
+.font-big {
   font-size: 20px;
   line-height: 32px;
-}
-
-.font-huge {
-  font-size: 24px;
-  line-height: 32px;
-}
-
-.font-enormous {
-  font-size: 48px;
-  line-height: 56px;
-}
-
-.font-gigantic {
-  font-size: 64px;
-  line-height: 72px;
 }

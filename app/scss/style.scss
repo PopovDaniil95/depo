@@ -1,11 +1,13 @@
-$grey-color: color(#6f767e);
-
 * {
   padding: 0;
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: "tt_firs_neue";
+  font-family: "TT Firs Neue";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 a {
@@ -16,6 +18,10 @@ a {
 .flex {
   display: flex;
   flex-direction: row;
+}
+
+.grey-color {
+  color: #6f767e;
 }
 
 .header__wrapper {
@@ -63,21 +69,10 @@ a {
   max-width: 1224px;
 }
 
-.btn {
-  height: 48px;
-  white-space: nowrap;
-  padding: 12px;
-  border-radius: 5px;
-  border: none;
-  background: #3e8bf3;
-  color: #fff;
+.language-btn {
+  margin: 0 24px;
 }
 
 .language-btn__icon-country {
   padding: 0 8px;
-}
-
-.btn.btn--white {
-  background: #fff;
-  color: #000;
 }
