@@ -7,9 +7,9 @@
   color: #fff;
 }
 
-.btn.btn--white {
-  background: #fff;
-  color: #000;
+.btn.btn_white {
+  background: #f5f9fe;
+  color: #6f767e;
 }
 
 .btn_promo {
@@ -18,5 +18,10 @@
 }
 
 .btn_feature {
+  padding: 12px 24px;
+}
+
+.btn_country {
+  margin-right: 16px;
   padding: 12px 24px;
 }

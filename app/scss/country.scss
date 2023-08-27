@@ -1,0 +1,58 @@
+.country {
+  padding-top: 120px;
+}
+
+.country__content {
+  position: absolute;
+}
+
+.country__menu {
+  display: table;
+  padding: 8px;
+  background: #f5f9fe;
+  border-radius: 16px;
+  margin-bottom: 64px;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    li {
+      list-style-type: none;
+
+      a {
+        padding: 8px 16px;
+
+        display: flex;
+        align-items: center;
+        color: #6f767e;
+
+        img {
+          padding-right: 8px;
+        }
+      }
+    }
+  }
+}
+
+.country__menu li a:hover {
+  background: #fff;
+  border-radius: 8px;
+  color: black;
+  transition: all 0.3s;
+}
+
+.country__title {
+  max-width: 452px;
+  margin-bottom: 32px;
+}
+
+.country__map {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.country__map-img {
+  max-width: 100%;
+  max-height: 568px;
+}
