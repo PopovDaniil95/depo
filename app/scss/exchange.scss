@@ -1,0 +1,34 @@
+.exchange {
+  margin-top: 76px;
+
+  background: #f5f9fe;
+}
+
+.exchange__container {
+  align-items: center;
+}
+
+.exchange__content {
+  position: absolute;
+  max-width: 496px;
+}
+
+.exchange__title {
+  margin-bottom: 32px;
+}
+
+.exchange__description {
+  margin-bottom: 32px;
+}
+
+.exchange__img-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 106px;
+}
+
+.exchange__img {
+  margin-top: -76px;
+  max-width: 515px;
+}
