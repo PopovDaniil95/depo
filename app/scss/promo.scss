@@ -45,6 +45,15 @@
   margin-right: 16px;
 }
 
+.promo__scroll-title {
+  transition: all 0.3s;
+}
+
+.promo__scroll-title:hover {
+  color: #3e8bf3;
+  transition: all 0.3s;
+}
+
 .promo__footer-right {
   align-items: center;
 }

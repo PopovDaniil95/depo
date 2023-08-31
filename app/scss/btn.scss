@@ -5,11 +5,30 @@
   border: none;
   background: #3e8bf3;
   color: #fff;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #3474ca;
+  transition: all 0.3s;
+}
+
+.btn:active {
+  background: #295da2;
 }
 
 .btn.btn_white {
   background: #f5f9fe;
   color: #6f767e;
+}
+
+.btn.btn_white:hover {
+  background: #e3eefd;
+  transition: all 0.3s;
+}
+
+.btn.btn_white:active {
+  background: #bfd8fb;
 }
 
 .btn_promo {

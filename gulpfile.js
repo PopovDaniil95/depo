@@ -70,10 +70,10 @@ function sprite() {
 }
 
 function scripts() {
-  return src(["app/js/main.js"])
+  return src(["app/js/*.js"])
     .pipe(concat("main.min.js"))
     .pipe(uglify())
-    .pipe(dest("app/js"))
+    .pipe(dest("app/min.js"))
     .pipe(browserSync.stream());
 }
 
@@ -94,7 +94,7 @@ function watching() {
   });
   watch(["app/scss/**/*.scss"], styles);
   watch(["app/images/src"], images);
-  watch(["app/js/main.js"], scripts);
+  watch(["app/js/*.js"], scripts);
   watch(["app/components/*", "app/pages/*"], pages);
   watch(["app/**/*.html"]).on("change", browserSync.reload);
 }
@@ -111,7 +111,7 @@ function building() {
       "!app/images/*.svg",
       "app/images/dist/sprite.svg",
       "app/fonts/*.*",
-      "app/js/main.min.js",
+      "app/min.js/main.min.js",
       "app/**/*.html",
     ],
     {

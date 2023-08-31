@@ -3,11 +3,11 @@
   justify-content: space-between;
 }
 
-.faq__title {
+.faq__left {
   max-width: 222px;
 }
 
-.faq__title h2 {
+.faq__left h2 {
   margin-bottom: 32px;
 }
 
@@ -28,7 +28,7 @@
   justify-content: space-between;
   color: black;
   cursor: pointer;
-  transition: background 0.2s ease-out;
+  transition: background 0.9s ease-out;
 }
 
 .faq__question:hover {
@@ -44,14 +44,19 @@
   position: absolute;
 }
 
-.faq__input:checked ~ .faq__text {
-  display: block;
-}
-
 .faq__text {
   margin: 24px;
   display: none;
   color: #6f767e;
+}
+
+.faq__text.expanded {
+  max-height: 1000px; /* Или любое другое достаточно большое значение */
+  transition: max-height 2s ease-out;
+}
+
+.faq__input:checked ~ .faq__text {
+  display: block;
 }
 
 .minus-icon {
