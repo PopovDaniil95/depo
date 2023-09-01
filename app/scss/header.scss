@@ -53,3 +53,21 @@
 .language-btn__icon-country {
   padding: 0 8px;
 }
+
+.menu__btn-drop-down {
+  display: none;
+  width: 30px;
+  height: 25px;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.language-btn.menu--open {
+  transform: translateY(0%);
+  display: block;
+}

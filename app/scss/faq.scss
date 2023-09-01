@@ -11,54 +11,37 @@
   margin-bottom: 32px;
 }
 
-.faq__menu {
+.accordion {
   border-top: 1px solid #d9d9d9;
-
-  width: 808px;
+  max-width: 808px;
 }
 
-.faq__item {
-  border-bottom: 1px solid #d9d9d9;
+.accordion__item {
+  border-bottom: 1px solid #ddd;
 }
 
-.faq__question {
-  margin: 24px;
+.accordion__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: black;
   cursor: pointer;
-  transition: background 0.9s ease-out;
-}
-
-.faq__question:hover {
-  color: #6f767e;
-}
-
-.faq__input {
-  width: 0;
-  height: 0;
-
-  -webkit-appearance: none;
-  appearance: none;
-  position: absolute;
-}
-
-.faq__text {
   margin: 24px;
-  display: none;
-  color: #6f767e;
+  color: black;
 }
 
-.faq__text.expanded {
-  max-height: 1000px; /* Или любое другое достаточно большое значение */
-  transition: max-height 2s ease-out;
+.accordion__content {
+  max-height: 0;
+  padding: 0px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: #fff;
 }
 
-.faq__input:checked ~ .faq__text {
-  display: block;
+.accordion__text {
+  padding: 0 20px 20px 20px;
 }
 
-.minus-icon {
+.accordion__icon-minus {
   display: none;
 }
