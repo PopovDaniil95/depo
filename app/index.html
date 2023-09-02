@@ -38,23 +38,39 @@
       </nav>
     </div>
     <div class="header__right flex">
-      <a class="language-btn flex" href="#">
-        <div class="menu__btn-drop-down">
-          <p>123</p>
-          <p>321</p>
+      <div class="language__wrapper">
+        <a class="language-btn flex" href="#" id="menu__btn_Id">
+          <img
+            class="language-btn__icon-country"
+            src="images/img-header/russia-icon.svg"
+            alt=""
+          />
+          <div class="language-btn__text">Русский</div>
+          <img
+            class="language-btn__icon-arrow"
+            src="images/img-header/arrow-bottom-icon.svg"
+            alt="arrow-bottom-icon"
+          />
+        </a>
+        <div class="language-btn__menu" id="menu__list_Id">
+          <a class="language-btn__menu-cell flex">
+            <img
+              class="language-btn__menu-img"
+              src="images/img-header/russia-icon.svg"
+              alt=""
+            />
+            <p>Русский</p>
+          </a>
+          <a class="language-btn__menu-cell flex">
+            <img
+              class="language-btn__menu-img"
+              src="images/img-country/ukraine-icon.png"
+              alt=""
+            />
+            <p>English</p>
+          </a>
         </div>
-        <img
-          class="language-btn__icon-country"
-          src="images/img-header/russia-icon.svg"
-          alt=""
-        />
-        <div class="language-btn__text">Русский</div>
-        <img
-          class="language-btn__icon-arrow"
-          src="images/img-header/arrow-bottom-icon.svg"
-          alt="arrow-bottom-icon"
-        />
-      </a>
+      </div>
       <button class="btn">Launch app</button>
     </div>
   </div>

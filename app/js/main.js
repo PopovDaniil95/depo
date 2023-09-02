@@ -74,8 +74,8 @@ menuKazakhstan.addEventListener("mouseleave", () => {
   kazakhstanContent.style.opacity = "0.5";
 });
 
-const menuBtn = document.querySelector(".menu__btn-drop-down");
-const menuMobile = document.querySelector(".language-btn");
+const menuBtn = document.querySelector(".language-btn");
+const menuMobile = document.querySelector(".language-btn__menu");
 
 menuBtn.addEventListener("click", () => {
   menuMobile.classList.toggle("menu--open");
