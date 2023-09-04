@@ -74,8 +74,15 @@ menuKazakhstan.addEventListener("mouseleave", () => {
   kazakhstanContent.style.opacity = "0.5";
 });
 
-const menuBtn = document.querySelector(".language-btn");
-const menuMobile = document.querySelector(".language-btn__menu");
+const menulanguage = document.querySelector(".language-btn");
+const menuDropDown = document.querySelector(".language-btn__menu");
+
+menulanguage.addEventListener("click", () => {
+  menuDropDown.classList.toggle("menu--open");
+});
+
+const menuBtn = document.querySelector(".menu__btn-drop-down");
+const menuMobile = document.getElementById("menu-list-id");
 
 menuBtn.addEventListener("click", () => {
   menuMobile.classList.toggle("menu--open");

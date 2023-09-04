@@ -8,6 +8,7 @@
 }
 
 .promo__content {
+  flex: 2;
   max-width: 600px;
 }
 
@@ -19,10 +20,15 @@
   margin: 0 8px;
 }
 
+.promo__img-container {
+  flex: 1;
+  max-width: 600px;
+}
+
 .promo__img {
   margin-top: 57px;
   margin-bottom: 111px;
-  max-width: 600px;
+  max-width: 100%;
 }
 
 .promo__footer {
@@ -60,4 +66,33 @@
 
 .promo__social-media {
   align-items: center;
+}
+
+@media (max-width: 1070px) {
+  .promo__content {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 900px) {
+  .promo__content {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 728px) {
+  .promo__container.flex {
+    flex-direction: column-reverse;
+  }
+
+  .promo__img-container {
+    max-width: 452px;
+  }
+
+  .promo__content {
+    max-width: 677px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
