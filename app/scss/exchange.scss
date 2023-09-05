@@ -1,15 +1,16 @@
 .exchange {
   margin-top: 76px;
-
   background: #f5f9fe;
 }
 
 .exchange__container {
   align-items: center;
+  justify-content: space-between;
 }
 
 .exchange__content {
   max-width: 496px;
+  flex-shrink: 0;
 }
 
 .exchange__title {
@@ -21,15 +22,12 @@
 }
 
 .exchange__img-container {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 106px;
 }
 
 .exchange__img {
   margin-top: -76px;
   max-width: 515px;
+  max-height: 100%;
 }
 
 @media (max-width: 1200px) {
@@ -39,10 +37,32 @@
 }
 
 @media (max-width: 1070px) {
-  .exchange__content {
-    flex: 0;
+  .exchange__img {
+    max-width: 415px;
   }
-  .exchange__img-container {
-    flex: 1;
+}
+
+@media (max-width: 970px) {
+  .exchange__container.flex {
+    flex-direction: column;
+  }
+
+  .exchange__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+
+  .exchange__title {
+    text-align: center;
+  }
+  .exchange__description {
+    text-align: center;
+  }
+
+  .exchange__img {
+    max-width: 456px;
+    margin-top: 0;
   }
 }

@@ -30,3 +30,12 @@
   color: #3e8bf3;
   transition: all 0.3s;
 }
+
+@media (max-width: 1070px) {
+  .footer {
+    padding: 32px 0;
+  }
+  .footer__mid {
+    margin-right: 0;
+  }
+}

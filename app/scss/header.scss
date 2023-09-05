@@ -110,6 +110,9 @@
 }
 
 @media (max-width: 1070px) {
+  .header__divider {
+    display: none;
+  }
   .header__right {
     margin-right: 56px;
   }
