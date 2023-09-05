@@ -81,3 +81,23 @@
     justify-content: space-around;
   }
 }
+
+@media (max-width: 1070px) {
+  .features {
+    padding-top: 80px;
+  }
+  .feature__cells-steps {
+    padding-bottom: 64px;
+  }
+}
+
+@media (max-width: 900px) {
+  .feature__title {
+    max-width: 328px;
+    margin-bottom: 32px;
+  }
+
+  .feature__cell-step {
+    max-width: 328px;
+  }
+}

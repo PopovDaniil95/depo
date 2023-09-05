@@ -28,3 +28,9 @@ a {
 .grey-color {
   color: #6f767e;
 }
+
+@media (max-width: 1272px) {
+  .container {
+    margin: 0 27px;
+  }
+}

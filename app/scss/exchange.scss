@@ -9,7 +9,6 @@
 }
 
 .exchange__content {
-  position: absolute;
   max-width: 496px;
 }
 
@@ -31,4 +30,19 @@
 .exchange__img {
   margin-top: -76px;
   max-width: 515px;
+}
+
+@media (max-width: 1200px) {
+  .exchange__img-container {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1070px) {
+  .exchange__content {
+    flex: 0;
+  }
+  .exchange__img-container {
+    flex: 1;
+  }
 }
