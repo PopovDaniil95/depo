@@ -34,45 +34,45 @@ const kazakhstanContent = document.querySelector(".country__map-kazakhstan");
 const menuBelarus = document.querySelector(".country__menu-belarus");
 const belarusContent = document.querySelector(".country__map-belarus");
 
-menuRussia.addEventListener("mouseenter", () => {
-  russiaContent.style.opacity = "1";
-});
+// menuRussia.addEventListener("mouseenter", () => {
+//   russiaContent.style.opacity = "1";
+// });
 
-menuRussia.addEventListener("mouseleave", () => {
-  russiaContent.style.opacity = "0.5";
-});
+// menuRussia.addEventListener("mouseleave", () => {
+//   russiaContent.style.opacity = "0.5";
+// });
 
-menuUkraine.addEventListener("mouseenter", () => {
-  ukraineContent.style.opacity = "1";
-});
+// menuUkraine.addEventListener("mouseenter", () => {
+//   ukraineContent.style.opacity = "1";
+// });
 
-menuUkraine.addEventListener("mouseleave", () => {
-  ukraineContent.style.opacity = "0.5";
-});
+// menuUkraine.addEventListener("mouseleave", () => {
+//   ukraineContent.style.opacity = "0.5";
+// });
 
-menuBelarus.addEventListener("mouseenter", () => {
-  belarusContent.style.opacity = "1";
-});
+// menuBelarus.addEventListener("mouseenter", () => {
+//   belarusContent.style.opacity = "1";
+// });
 
-menuBelarus.addEventListener("mouseleave", () => {
-  belarusContent.style.opacity = "0.5";
-});
+// menuBelarus.addEventListener("mouseleave", () => {
+//   belarusContent.style.opacity = "0.5";
+// });
 
-menuTurkey.addEventListener("mouseenter", () => {
-  turkeyContent.style.opacity = "1";
-});
+// menuTurkey.addEventListener("mouseenter", () => {
+//   turkeyContent.style.opacity = "1";
+// });
 
-menuTurkey.addEventListener("mouseleave", () => {
-  turkeyContent.style.opacity = "0.5";
-});
+// menuTurkey.addEventListener("mouseleave", () => {
+//   turkeyContent.style.opacity = "0.5";
+// });
 
-menuKazakhstan.addEventListener("mouseenter", () => {
-  kazakhstanContent.style.opacity = "1";
-});
+// menuKazakhstan.addEventListener("mouseenter", () => {
+//   kazakhstanContent.style.opacity = "1";
+// });
 
-menuKazakhstan.addEventListener("mouseleave", () => {
-  kazakhstanContent.style.opacity = "0.5";
-});
+// menuKazakhstan.addEventListener("mouseleave", () => {
+//   kazakhstanContent.style.opacity = "0.5";
+// });
 
 const menulanguage = document.querySelector(".language-btn");
 const menuDropDown = document.querySelector(".language-btn__menu");
