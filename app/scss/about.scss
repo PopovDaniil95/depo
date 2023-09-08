@@ -44,3 +44,15 @@
     max-width: 496px;
   }
 }
+
+@media (max-width: 530px) {
+  .about {
+    padding-top: 32px;
+  }
+  .about__title {
+    margin-bottom: 16px;
+  }
+  .about__content {
+    padding-bottom: 32px;
+  }
+}

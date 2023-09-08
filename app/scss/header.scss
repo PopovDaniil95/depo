@@ -33,8 +33,6 @@
       list-style-type: none;
       color: #6f767e;
       a {
-        font-size: 16px;
-        line-height: 24px;
         transition: all 0.3s;
         padding-bottom: 30px;
 
@@ -164,6 +162,9 @@
 }
 
 @media (max-width: 530px) {
+  .header__wrapper {
+    padding: 16px;
+  }
   .language-btn.flex {
     display: none;
   }
@@ -177,5 +178,21 @@
         padding: 0;
       }
     }
+  }
+  .header__logo-img {
+    width: 97px;
+    height: 24px;
+  }
+  .menu__btn-drop-down {
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .header__right {
+    margin-right: 40px;
+  }
+  .menu__btn-drop-down {
+    right: 16px;
   }
 }

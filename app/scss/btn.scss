@@ -48,3 +48,13 @@
 .btn_exchange {
   padding: 12px 24px;
 }
+
+@media (max-width: 530px) {
+  .btn {
+    padding: 8px 12px;
+  }
+  .btn.btn_promo {
+    padding: 12px 24px;
+    margin-bottom: 24px;
+  }
+}
