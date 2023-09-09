@@ -39,3 +39,33 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 650px) {
+  .footer.flex {
+    flex-direction: column;
+  }
+  .footer__left {
+    margin-bottom: 24px;
+  }
+  .footer__mid {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer__mid {
+    margin-bottom: 32px;
+  }
+  .footer__right {
+    .social-media.flex {
+      flex-direction: column;
+      gap: 16px;
+      .social-media__title {
+        margin-right: 0;
+      }
+      .social-media__icon + .social-media__icon {
+        margin-left: 32px;
+      }
+    }
+  }
+}

@@ -66,3 +66,29 @@
     margin-top: 0;
   }
 }
+
+@media (max-width: 530px) {
+  .exchange {
+    margin-top: 0;
+    padding-top: 32px;
+  }
+  .exchange__content {
+    margin-bottom: 32px;
+  }
+  .exchange__title {
+    margin-bottom: 16px;
+  }
+  .exchange__description.font-medium {
+    margin-bottom: 16px;
+    line-height: 20px;
+  }
+  .exchange__img {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .exchange__img {
+    max-width: 100%;
+  }
+}
