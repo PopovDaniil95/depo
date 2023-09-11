@@ -48,6 +48,14 @@ p,
   }
 }
 
+@media (max-width: 590px) {
+  h2,
+  .h2 {
+    font-size: 44px;
+    line-height: 52px;
+  }
+}
+
 @media (max-width: 530px) {
   h1,
   .h1 {

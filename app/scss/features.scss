@@ -56,35 +56,27 @@
   display: none;
 }
 
-.feature_mid {
-  display: none;
-}
-
 @media (max-width: 1250px) {
   .features {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    border-bottom: none;
+    justify-content: space-between;
+  }
+
+  .feature__cells-steps {
+    flex-wrap: wrap;
+    padding-bottom: 0;
   }
   .feature__top.flex {
     flex-direction: column;
     justify-content: flex-start;
   }
 
-  .feature__cell-step.feature__cell-step_big {
-    display: none;
+  .feature__title {
+    margin-bottom: 32px;
   }
-  .feature_mid {
-    display: inline;
-  }
-
-  .features__cells-step.features__cells-step_mid {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-bottom: 1px solid #d9d9d9;
-    padding-bottom: 64px;
+  .feature__cell-step {
+    margin-bottom: 64px;
   }
 }
 
@@ -92,17 +84,13 @@
   .features {
     padding-top: 80px;
   }
-  .feature__cells-steps {
-    padding-bottom: 39px;
+
+  .feature__title {
+    max-width: 220px;
   }
 }
 
 @media (max-width: 900px) {
-  .feature__title {
-    max-width: 328px;
-    margin-bottom: 32px;
-  }
-
   .feature__cell-step {
     max-width: 328px;
   }
@@ -113,17 +101,42 @@
     justify-content: space-between;
     gap: 26px;
   }
+}
 
-  .features__cells-step.features__cells-step_mid {
-    justify-content: space-between;
-    gap: 26px;
+@media (max-width: 705px) {
+  .feature__cell-step {
+    max-width: 295px;
+  }
+}
+
+@media (max-width: 650px) {
+  .feature__cell-step {
+    max-width: 265px;
+    h3 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 590px) {
+  .feature__cell-step {
+    max-width: 238px;
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
   }
 }
 
 @media (max-width: 530px) {
   .features {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 32px;
     gap: 0;
     border-bottom: 1px solid #d9d9d9;
@@ -145,21 +158,15 @@
     margin-bottom: 32px;
   }
 
+  .feature__cell-step {
+    max-width: 400px;
+  }
+
   .feature__cells-steps.flex {
     flex-direction: column;
     gap: 32px;
   }
 
-  .feature_mid {
-    display: none;
-  }
-  .feature__cell-step.feature__cell-step_big {
-    display: flex;
-    flex-direction: column;
-    .feature__flag {
-      max-width: 73px;
-    }
-  }
   .feature__flag {
     margin-bottom: 16px;
   }
