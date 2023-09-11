@@ -155,7 +155,7 @@
       right: 0;
       top: 0;
       transform: translateX(100%);
-      transition: transform 0.3s ease;
+      transition: all 0.3s ease;
 
       li {
         a {
@@ -167,7 +167,7 @@
   .menu {
     ul.menu__btn-drop-down_open {
       transform: translateX(0%);
-      transition: transform 0.3s ease;
+      transition: all 0.3s ease;
     }
   }
 }
