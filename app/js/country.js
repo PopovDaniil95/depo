@@ -70,7 +70,7 @@ function moveCountryMenu() {
     );
   } else {
     country.insertBefore(countryMap, countryContent.nextSibling);
-    countryContent.insertBefore(countryMenu, countryContent.lastElementChild);
+    countryContent.insertBefore(countryMenu, countryContent.firstElementChild);
   }
 }
 

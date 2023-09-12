@@ -1,3 +1,17 @@
+.header {
+  background-color: #fff;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.header.fixed {
+  position: fixed;
+  transform: translateY(100px);
+}
+
 .header__wrapper {
   align-items: center;
   width: 100%;
