@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.min.css" />
+    <link
+       rel="stylesheet"
+       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
   </head>
 <body>
-  
+
+
 
 
 <header class="header header_js">
@@ -56,7 +61,7 @@
       </nav>
     </div>
     <div class="header__right flex">
-      <div class="language__wrapper">
+      <div data class="language__wrapper">
         <a class="language-btn flex" href="#">
           <img
             class="language-btn__icon-country"
@@ -100,6 +105,9 @@
 
 <section class="promo">
   <div class="promo__container container flex">
+    <a data-fancybox="gallery" href="https://lipsum.app/id/60/1600x1200">
+      <img class="rounded" src="https://lipsum.app/id/60/200x150" />
+    </a>
     <div class="promo__content">
       <h1 class="promo__content-title">
         Обменивай крипту и фиат без ограничений
@@ -2756,8 +2764,16 @@
 </footer>
 
 
+
 <script  src = 'min.js/main.min.js';>
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js">
+  </script>
+ <script>
+  Fancybox.bind('[data-fancybox="gallery"]', {
+    //
+  });    
+</script>
 </body>
 </html>
 
