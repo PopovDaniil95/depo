@@ -1,4 +1,4 @@
-<section class="country container" id="country-id">
+<section class="country container">
   <div class="country__content">
     <div class="country__menu">
       <ul>
@@ -32,10 +32,14 @@
         </li>
       </ul>
     </div>
-    <h2 class="country__title">Страны, с которыми уже работает сервис</h2>
     <div class="country__btns">
+      <h2 class="country__title">Страны, с которыми уже работает сервис</h2>
       <button class="btn btn_country font-medium">Launch app</button>
-      <button class="btn btn_white btn_country font-medium">
+      <button
+        class="btn btn_white btn_country font-medium"
+        data-fancybox
+        data-src="#modal-connect"
+      >
         Подключить мою страну
       </button>
     </div>
@@ -2167,4 +2171,25 @@
       </defs>
     </svg>
   </div>
+</section>
+<section class="modal-connect" id="modal-connect">
+  <h4 class="modal-connect__title">Подключить мою страну</h4>
+
+  <p class="modal-connect__choice-subtitle">Выберите страну</p>
+  <button class="modal-connect__choice-btn font-medium grey-color">
+    Выберите страну
+  </button>
+  <p class="modal-connect__user-name-subtitle">Имя</p>
+  <input
+    class="modal-connect__user-name-input font-medium"
+    type="text"
+    placeholder="Напишите свое имя"
+  />
+  <p class="modal-connect__user-email-subtitle">Email</p>
+  <input
+    class="modal-connect__user-email-input font-medium"
+    type="text"
+    placeholder="Напишите свой email"
+  />
+  <button class="btn">Отправить заявку</button>
 </section>

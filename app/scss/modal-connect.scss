@@ -1,0 +1,66 @@
+.modal-connect {
+  display: none;
+  flex-direction: column;
+  width: 600px;
+}
+
+.modal-connect.fancybox__content {
+  display: flex;
+  padding: 64px 80px;
+  border-radius: 16px;
+}
+
+.f-button {
+  color: #6f767e;
+}
+
+.fancybox__content > .f-button.is-close-btn {
+  top: 24px;
+  right: 24px;
+  opacity: 1;
+}
+
+.modal-connect__title {
+  margin-bottom: 32px;
+}
+
+.modal-connect__choice-subtitle {
+  margin-bottom: 10px;
+}
+
+.modal-connect__choice-btn {
+  text-align: start;
+  padding: 12px 24px;
+  margin-bottom: 32px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.modal-connect__user-name-subtitle {
+  margin-bottom: 10px;
+}
+
+.modal-connect__user-name-input {
+  padding: 12px 24px;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.modal-connect__user-email-subtitle {
+  margin-bottom: 10px;
+}
+
+.modal-connect__user-email-input {
+  padding: 12px 24px;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.modal-connect {
+  .btn {
+    max-width: 203px;
+  }
+}
