@@ -2489,23 +2489,30 @@
     type="text"
     placeholder="Напишите свой email"
   />
-  <button class="btn btn_modal-connect font-medium">Отправить заявку</button>
+  <button
+    class="btn btn_modal-connect font-medium"
+    data-fancybox
+    data-src="#modal-connect-successfully"
+  >
+    Отправить заявку
+  </button>
 </section>
 
-<section class="modal-connect" id="modal-connect-2">
-  <p class="modal-connect__user-name-subtitle">Имя</p>
-  <input
-    class="modal-connect__user-name-input font-medium"
-    type="text"
-    placeholder="Напишите свое имя"
+<section
+  class="modal-connect modal-connect-successfully"
+  id="modal-connect-successfully"
+>
+  <img
+    class="modal-connect-successfully__img"
+    src="images/img-country/modal-icon.svg"
+    alt=""
   />
-  <p class="modal-connect__user-email-subtitle">Email</p>
-  <input
-    class="modal-connect__user-email-input font-medium"
-    type="text"
-    placeholder="Напишите свой email"
-  />
-  <button class="btn btn_modal-connect font-medium">Отправить заявку</button>
+  <h4 class="modal-connect-successfully__title">Заявка отправлена</h4>
+  <p class="modal-connect-successfully__description font-medium">
+    Мы отправим уведомление, когда обменные операции станут доступны в вашей
+    стране
+  </p>
+  <button class="btn btn_modal-connect font-medium">Понятно</button>
 </section>
 
 
@@ -2810,9 +2817,9 @@
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js">
   </script>
  <script>
-  Fancybox.bind('[data-fancybox]', {
-    
-  });    
+  Fancybox.bind('[data-fancybox]', {});    
+
+ 
 </script>
 </body>
 </html>
